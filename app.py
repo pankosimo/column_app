@@ -191,8 +191,7 @@ qf=1
 #v_slider()
 
 
-
-st.set_page_config(layout="wide") 
+st.set_page_config(layout="wide", page_title="Binäre Destillation") 
 st.title('Hands-On Übung zum Thema Rektifikationskolonnen')
 with st.sidebar:
     
