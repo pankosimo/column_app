@@ -198,7 +198,7 @@ with st.sidebar:
     
     st.header("Einstellungen")
     qf = st.number_input("Thermischer Zustand Feed",0.000,1.000,step=0.05,value=1.0, key="qf_slider",format="%.2f", on_change=qf_slider)
-    v = st.number_input("Rücklaufverhältnis",1.000,500.000,step=0.05,  value=3, key="v_slider",format="%.2f", on_change=v_slider)
+    v = st.number_input("Rücklaufverhältnis",1.000,500.000,step=0.05,  value=3.0, key="v_slider",format="%.2f", on_change=v_slider)
     r = st.number_input("Verdampfungsverhältnis",1.000,500.000,step=0.05,  key="r_slider",format="%.2f", on_change=r_slider)
     
 # P = 1
